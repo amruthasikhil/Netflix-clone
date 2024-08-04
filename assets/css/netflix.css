@@ -49,11 +49,13 @@
 }
 .nav-select button{
     color: rgb(255, 255, 255);
-    background-color: rgba(233,26,26,0.945);
-    boder:1px solid rgba(0,0,0,0);
-    padding: 6px 15px;
+    background-color: rgb(255, 0, 0);
+    border:3px solid rgba(117, 109, 109, 0);
+    border: none;
+    height: 41px;
+    width: 120px;
+    font-size: 18px;
     border-radius: 3px;
-    font-size :13px;
 }
 
 .screen-child2{
@@ -122,7 +124,7 @@
 }
 .screen2{
     background-color: rgb(0, 0, 0);
-    height: 800px;
+    height: 700px;
     width:100%;
     /* margin-top:10px; */
     justify-content: space-around;
@@ -142,17 +144,17 @@
 }
 .second_part1_text h1{
     font-weight: 800;
-    font-size: 60px;
+    font-size: 55px;
     padding-bottom: 15px;
     font-family: "Arial Black", "Arial Bold", Gadget, serif;    font-style: bold;
 
 
 }
 .second_part1_text p{
-    font-size: 30px;
+    font-size: 24px;
     font-family:Arial, Helvetica, sans-serif;
     word-spacing: 4px;
-    line-height: 1.3;
+    line-height: 1.5;
 
 }
 
@@ -193,7 +195,7 @@
 }
 .screen3_second_part1_text h1{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 40px;
    
     font-family: "Arial Black", "Arial Bold", Gadget, serif;    font-style: bold;
 
@@ -201,7 +203,7 @@
 }
 
 .screen3_second_part1_text p{
-    font-size: 18px;
+    font-size: 13px;
     font-family:Arial, Helvetica, sans-serif;
     margin-top: 5px;
     line-height: 1.3;
@@ -257,11 +259,223 @@ p {
 .icon {
     color: white;
     margin-left: 90px;
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 13px;
 }
 
 .screen3_second_part1_text p{
     font-size: 22px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+line-height: 1.5;
 }
+.screen4{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    width:100%;
+    /* margin-top:10px; */
+    justify-content: space-around;
+    display: flex;
+    background-size: 100% 900px;
+    border-bottom: 7.5px solid rgb(42, 40, 40);
+}
+
+.second_part2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_part1_text2{
+    color :white;
+    width: 50%;
+}
+
+.second_part1_content2{
+    width: 50%;
+    display: flex;
+}
+.second_part1_content2 img{
+    width: 105%;
+    z-index: 1;
+
+}
+.second_part1_content2 video {
+    width: 70%;
+    margin-bottom: 0px;
+    margin-left: -530px;
+    position: relative; /* Or 'absolute' depending on your layout */
+    top: -80px; /* Adjust this value to move the video up */
+}
+
+.second_part1_text2 h1{
+    font-weight: 800;
+    font-size: 50px;
+    padding-bottom: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.second_part1_text2 p{
+    font-size: 22px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+
+}
+.screen5{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    width:100%;
+    /* margin-top:10px; */
+    justify-content: space-around;
+    display: flex;
+    background-size: 100% 900px;
+    border-bottom: 7.5px solid rgb(42, 40, 40);
+}
+.screen5_second_part1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen5_second_part1_content{
+    width: 50%;
+    display: flex;
+   
+}
+
+.screen5_second_part1_text{
+    color :white;
+    width: 50%;
+}
+.screen5_second_part1_text h1{
+    font-weight: 800;
+    font-size: 40px;
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.screen5_second_part1_text p{
+    font-size: 13px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5px;
+    line-height: 1.3;
+
+}
+.screen5_second_part1_content img{
+
+    margin-left: -30px;
+    width: 700px;
+}
+.screen7{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    width:100%;
+    /* margin-top:10px; */
+    justify-content: space-around;
+    display: flex;
+    background-size: 100% 900px;
+    border-bottom: 7.5px solid rgb(42, 40, 40);
+}
+.main_class_footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+   
+
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    color: rgb(239, 230, 230);
+    display: flex;
+    flex-direction: column;
+    margin-left: -550px;
+    margin-top: 50px;
+;
+}
+
+.box1-1,.box1-2,.box1-3,.box1-4,.box1-5{
+margin-bottom: 30px;
+}
+.box1-1 a{
+    color: rgb(239, 230, 230);
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.box1-2 a{
+    color: rgb(239, 230, 230);
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.box1-3 a{
+    color: rgb(239, 230, 230);
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.box1-4 a{
+    color: rgb(239, 230, 230);
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.box1-5 a{
+    color: rgb(239, 230, 230);
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.main_class_footer p{
+    margin-top: 30px;
+
+}
+.box1-6 select{
+    margin-right: 10px;
+    background-color: rgba(41, 40, 40, 0.500);
+    border: none;
+    height: 43px;
+                color: aliceblue;
+                border-radius: 3px;
+                border : 3px solid rgb(46, 44, 44);
+                padding-left: 0px;
+                width: 100px;
+                text-align: center;
+
+                }
+
+        .box2{
+            width: 300px;
+            height: 200px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+           
+            margin-top: 100px;
+        ;
+        }
+
+        .box3{
+            width: 300px;
+            height: 200px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+           
+            margin-top: 100px;
+        ;
+        }
+
+        .box4{
+            width: 300px;
+            height: 200px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+           
+            margin-top: 100px;
+        ;
+        }
